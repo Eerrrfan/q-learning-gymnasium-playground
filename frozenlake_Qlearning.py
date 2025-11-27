@@ -97,7 +97,7 @@ for episode in range(num_test_episodes):
 
     print("Reward in this test episode:", total_reward)
 
-#simiulation 
+#simiulation on screen
 
 env_render = gym.make("FrozenLake-v1", is_slippery=False, render_mode="human")
 
